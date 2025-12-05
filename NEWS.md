@@ -22,7 +22,7 @@
 * Fixed an internal error in `pivot_wider()` (#1609, @krlmlr).
 
 * R >=4.1.0 is now required, in line with the [tidyverse
-  standard](https://www.tidyverse.org/blog/2019/04/r-version-support/) of
+  standard](https://tidyverse.org/blog/2019/04/r-version-support/) of
   supporting the previous 5 minor releases of R (#1613).
 
 * The base pipe is now used throughout the documentation (#1613).
@@ -615,7 +615,7 @@ See `vignette("in-packages")` for a detailed transition guide.
 
 * The first argument of `nest()` has changed from `data` to `.data`.
 
-* `unnest()` uses the [emerging tidyverse standard](https://www.tidyverse.org/blog/2019/01/tibble-2.0.1/#name-repair)
+* `unnest()` uses the [emerging tidyverse standard](https://tidyverse.org/blog/2019/01/tibble-2.0.1/)
   to disambiguate unique names. Use `names_repair = tidyr_legacy` to
   request the previous approach.
 
